@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Sign Up</title>
+    <link href='./src/index.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id='container-left'>
+      <div id='title'>
+        <img id='icon' src='./assets/icon.png' alt='icon'/><span>AMAS</span>
+      </div>
+      <div id='footer-1'>
+      Photo by <a href="https://unsplash.com/@brandi1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brandi Redd</a> on <a href="https://unsplash.com/s/photos/web-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </div>
+    </div>
+
+    <div id='container-right'>
+      <form action='' method="get">
+        <section id='header'>
+          <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+            Sign up now to get started.</p>
+          <p>You know you want to.</p>
+        </section>
+        <section id="main">
+          <h2>Let's do this!</h2>
+          <fieldset>
+            <legend>User Info (fileds with <span>*</span> is required)</legend>
+            <div id='input-controles'>
+              <div class='get-info'>
+                <label for='first-name'>FIRST NAME<strong><span aria-label="required">*</span></strong></label>
+                <input id='first-name' type='text'/>
+
+              </div>
+              <div class='get-info'>
+                <label for='last-name'>LAST NAME<strong><span aria-label="required">*</span></strong></label>
+                <input id='last-name' type='text'/>
+              </div>
+              <div class='get-info'>
+                <label for='email'>EMAIL<strong><span aria-label="required">*</span></strong></label>
+                <input id='email' type='email'/>
+              </div>
+              <div class='get-info'>
+                <label for='tel'>PHONE NUMBER</label>
+                <input id='tel' type='tel'/>
+              </div>
+              <div class='get-info'>
+                <label for='password'>PASSWORD<strong><span aria-label="required">*</span></strong></label>
+                <input id='password' type='password' minlength="8"/>
+              </div>
+              <div class='get-info'>
+                <label for='confirm-password'>CONFIRM PASSWORD<strong><span aria-label="required">*</span></strong></label>
+                <input id='confirm-password' type='password' minlength="8"/>
+              </div>
+            </div>
+          </fieldset>
+        </section>
+        <section id='footer'>
+          <button type="submit" >Create Account</button>
+          <p>Already have an account? <a href='#'>Log in</a></p>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
+
