@@ -131,20 +131,22 @@ fieldset{
   padding: 0;
 }
 
-@media screen and (max-width: 400px){
+@media (max-width: 600px){
   #container-right{
     font-size: 2rem;
-    height: auto;
-    color:red;
     text-align: center;
   }
   #input-controles{
     font-size: 1.5rem;
+    text-align: left;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+  }
+  .get-info{
+    width:100%;
+    min-width: 200px;
   }
 }
 
